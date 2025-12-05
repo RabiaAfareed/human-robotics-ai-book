@@ -1,55 +1,61 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.0.1 → 1.0.2
+Modified principles: None
+Added sections: None
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ⚠ pending (requires manual update for "Constitution Check" section)
+- .specify/templates/spec-template.md: ⚠ pending (requires manual update for scope/requirements alignment)
+- .specify/templates/tasks-template.md: ⚠ pending (requires manual update for task categorization)
+- .specify/templates/commands/sp.phr.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.specify.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.plan.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.tasks.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.adr.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.analyze.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.checklist.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.clarify.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.constitution.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.git.commit_pr.md: ⚠ pending (file not found)
+- .specify/templates/commands/sp.implement.md: ⚠ pending (file not found)
+Follow-up TODOs:
+- TODO(RATIFICATION_DATE): Specify ratification date
+-->
+# Physical AI & Humanoid Robotics: From Digital Intelligence to Embodied Systems Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Pedagogical Excellence
+The book must maintain absolute clarity, logical flow, strong pedagogy, and a modern, academic but friendly tone. Content should be highly structured with headings, subheadings, diagrams, tables, and flowcharts.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Practical Application & Real-World Workflows
+Examples must include Python, ROS 2, FastAPI, and robotics code. The content will emphasize deep conceptual explanations combined with practical steps, using real-world robotics workflows to prepare learners for industry roles.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Simulation-First Approach
+The curriculum will focus on building, simulating, and operating humanoid robots primarily through simulation environments like Gazebo, Unity for Visualization, and NVIDIA Isaac Sim/Isaac ROS.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Intelligent Embodied Systems
+The book will extensively cover Vision-Language-Action (VLA) systems, GPT-based conversational robotics, Whisper for voice-to-action, reinforcement learning, and embodied AI to create intelligent humanoid systems.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Capstone-Driven Learning
+The learning journey will culminate in a capstone project: "A simulated humanoid that hears a command, plans using LLMs, navigates, identifies an object, and manipulates it," ensuring a zero-to-capstone learning path.
 
-### [PRINCIPLE_6_NAME]
+### VI. Test-First Development (for code examples)
+For all code examples and projects within the book, Test-Driven Development (TDD) is mandatory. Tests must be written, user-approved, fail, and then implemented. The Red-Green-Refactor cycle will be strictly enforced.
 
+## Additional Constraints
 
-[PRINCIPLE__DESCRIPTION]
+Technology stack for the book's development: Docusaurus with TypeScript.
+Key technologies covered in the book: ROS 2, Gazebo Simulation, Unity for Visualization, NVIDIA Isaac Sim / Isaac ROS, Vision-Language-Action (VLA) systems, GPT-based conversational robotics, Whisper for voice-to-action, Reinforcement learning, Embodied AI.
+The textbook will comprise 10 distinct chapters, each focusing on a key area of Physical AI and Humanoid Robotics.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Code review required for all changes. All features must have clear acceptance criteria.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs/reviews must verify compliance. Complexity must be justified.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.2 | **Ratified**: TODO(RATIFICATION_DATE): Specify ratification date | **Last Amended**: 2025-12-05
