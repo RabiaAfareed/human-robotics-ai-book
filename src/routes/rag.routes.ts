@@ -5,6 +5,10 @@ import { handleDocumentUpload, handleTextUpload, handleAskQuestion } from "../co
 const router = express.Router();
 const upload = multer(); // memory storage for simplicity
 
+router.get("/health", (req, res) => {
+  res.json({ status: "RAG API is working" });
+});
+
 // Upload document (file)
 router.post("/upload-document", upload.single("file"), handleDocumentUpload);
 
